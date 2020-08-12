@@ -4,7 +4,7 @@
 
 from snowman_challenge.app import create_app
 
-application = create_app(config_filename='config')
+application = create_app(config_filename='snowman_challenge.config')
 
 if __name__ == '__main__':
     application.run(
